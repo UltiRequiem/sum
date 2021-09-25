@@ -2,4 +2,5 @@
 
 ### License
 
-[This project](https://deno.land/x/sum) is licensed under the [MIT License](./LICENSE.md).
+[This project](https://deno.land/x/sum) is licensed under the
+[MIT License](./LICENSE.md).
