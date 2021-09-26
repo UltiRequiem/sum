@@ -11,8 +11,7 @@ You can get this package by [nest.land](https://nest.land/package/sum) or
 ## Usage
 
 This package exposes two Functions,
-[sum](https://github.com/UltiRequiem/deno-sum/blob/main/mod.ts#L9)
-and
+[sum](https://github.com/UltiRequiem/deno-sum/blob/main/mod.ts#L9) and
 [sumSync](https://github.com/UltiRequiem/deno-sum/blob/main/mod.ts#L18).
 
 ```typescript
