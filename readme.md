@@ -1,6 +1,6 @@
 # Sum
 
-[![CI](https://github.com/ultirequiem/sum/workflows/ci/badge.svg)](https://github.com/ultirequiem/sum)
+[![CI](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml)
 [![Code Coverage](https://codecov.io/gh/ultirequiem/sum/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/sum)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/sum/mod.ts)
 
