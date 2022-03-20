@@ -1,22 +1,18 @@
-export type Summable = (string | number)[];
-export type summableItem = string | number;
+export type SummableItem = string | number;
 
 /**
- * Sum all parameters
- * @param toSum numbers or/and strings to sum
- * @returns A promise with the sum of al params.
+ * @param toSum A list with numbers or/and strings to sum.
+ *
+ * @example
+ * ```typescript
+ * import {sum} from "https://deno.land/x/sum/mod.ts"
+ *
+ * sum([1, 2, 3, 4, 5]) //=> 15
+ * sum(["1", "2", "3", "4", "5"]) //=> "12345"
+ * ```
  */
-export default function sum(...toSum: Summable): Promise<summableItem> {
-  return Promise.resolve(sumSync(toSum));
-}
-
-/**
- * Sum all parameters
- * @param toSum A list with numbers or/and strings to sum
- * @returns The sum of al params.
- */
-export function sumSync(toSum: Summable): summableItem {
+export function sum(toSum: SummableItem[]): SummableItem {
   return toSum.reduce((a, b) =>
-    typeof a === "number" && typeof b === "number" ? (a + b) : `${a}${b}`
+    typeof a === "number" && typeof b === "number" ? a + b : `${a}${b}`
   );
 }

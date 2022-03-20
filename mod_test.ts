@@ -1,18 +1,14 @@
-import { assertEquals } from "./test_deps.ts";
-import sum, { sumSync } from "./mod.ts";
+import { assertEquals } from "https://deno.land/std@0.108.0/testing/asserts.ts";
+import { sum } from "./mod.ts";
 
-Deno.test("Test Sum 1", async () => {
-  assertEquals(await sum(4, 12, 3, 1), 20);
+Deno.test("Sum pure number", () => {
+  assertEquals(sum([4, 12, 3, 1]), 20);
 });
 
-Deno.test("Test Sum 2", async () => {
-  assertEquals(await sum("a", "b", 5), "ab5");
+Deno.test("Sum pure strings", () => {
+  assertEquals(sum(["h", "e", "y"]), "hey");
 });
 
-Deno.test("Test Sum Sync 1", () => {
-  assertEquals(sumSync([4, 12, 3, 1]), 20);
-});
-
-Deno.test("Test Sum Sync 2", () => {
-  assertEquals(sumSync(["a", 4556, "a"]), "a4556a");
+Deno.test("Sum strings and numbers", () => {
+  assertEquals(sum([4, "hey", 3, 1]), "4hey31");
 });
