@@ -4,8 +4,8 @@ export type SummableItem = string | number;
  * @param toSum A list with numbers or/and strings to sum.
  *
  * @example
- * ```typescript
- * import {sum} from "https://deno.land/x/sum/mod.ts"
+ * ```javascript
+ * import { sum } from "https://deno.land/x/sum/mod.ts"
  *
  * sum([1, 2, 3, 4, 5]) //=> 15
  * sum(["1", "2", "3", "4", "5"]) //=> "12345"
