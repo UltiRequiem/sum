@@ -1,12 +1,9 @@
 # Sum
 
-[![CI](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml)
 [![Code Coverage](https://codecov.io/gh/ultirequiem/sum/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/sum)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/sum/mod.ts)
 
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fsum%2Fmod.ts)](https://doc.deno.land/https/deno.land/x/sum/mod.ts)
-
-Sum utilities for Deno.
+[Sumation](https://en.wikipedia.org/wiki/Summation).
 
 ## Usage
 
