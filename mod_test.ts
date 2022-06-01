@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.137.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.141.0/testing/asserts.ts";
 import { sum } from "./mod.ts";
 
 Deno.test("Sum pure number", () => {
