@@ -1,9 +1,9 @@
-import { buildPackage } from "https://deno.land/x/ultirequiem@0.0.17/node_support.ts";
+import { buildPackage } from "https://deno.land/x/ultirequiem@0.0.17/node.ts";
 
 buildPackage({
   repoName: "@ultirequiem/sum",
   description: "Sum utilities.",
   homepage: "https://sum.js.org",
   keywords: ["math", "sum"],
-  version: "1.1.0",
+  version: "2.0.0",
 });

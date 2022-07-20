@@ -1,18 +1,11 @@
-export type SummableItem = string | number;
-
 /**
- * @param toSum A list with numbers or/and strings to sum.
+ * @param numbers A list with numbers to sum.
  *
  * @example
  * ```javascript
- * import { sum } from "https://deno.land/x/sum/mod.ts"
- *
- * sum([1, 2, 3, 4, 5]) //=> 15
- * sum(["1", "2", "3", "4", "5"]) //=> "12345"
+ * sum(1, 2, 3, 4, 5) //=> 15
  * ```
  */
-export function sum(toSum: SummableItem[]): SummableItem {
-  return toSum.reduce((a, b) =>
-    typeof a === "number" && typeof b === "number" ? a + b : `${a}${b}`
-  );
+export function sum(...numbers: number[]) {
+  return numbers.reduce((accumulator, current) => accumulator + current, 0);
 }

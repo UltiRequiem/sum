@@ -3,7 +3,7 @@
 [![Code Coverage](https://codecov.io/gh/ultirequiem/sum/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/sum)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/sum/mod.ts)
 
-[Sumation](https://en.wikipedia.org/wiki/Summation).
+Get the sum of an array of numbers
 
 ## Usage
 
@@ -12,8 +12,7 @@
 ```typescript
 import { sum } from "https://deno.land/x/sum/mod.ts";
 
-sum([1, 2, 3, 4, 5]); //=> 15
-sum(["1", "2", "3", "4", "5"]); //=> "12345"
+sum(1, 2, 3, 4, 5); //=> 15
 ```
 
 ### [Node.js 🐢](https://npmjs.com/package/@ultirequiem/sum)
@@ -42,7 +41,7 @@ The API is the same on all this platforms.
 Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
-[send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
+[send me a tweet](https://twitter.com/UltiRequiem) 😆
 
 Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
 my work 🚀
