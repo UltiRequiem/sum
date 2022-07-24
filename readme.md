@@ -90,4 +90,4 @@ in this project.
 
 ## Licence
 
-Licensed under the MIT License.
+Licensed under the MIT License 📄
