@@ -1,15 +1,18 @@
 # Sum
 
-[![Code Coverage](https://codecov.io/gh/ultirequiem/sum/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/sum)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/sum?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/sum)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/sum?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/sum)
+[![CI](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/sum/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/sum/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/sum)
 
 Get the sum of an array of numbers
 
 ## Usage
 
-### [Node.js 🐢🚀](https://npmjs.com/package/sum)
+### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/sum)
 
 ```typescript
-import { sum } from "sum";
+import { sum } from "@ultirequiem/sum";
 
 sum(1, 2, 3, 4, 5); //=> 15
 ```
@@ -23,7 +26,7 @@ Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 [script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
 [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/sum).
 
-The API is the same on all this platforms.
+The API is the same on all these platforms.
 
 ## Documentation
 
@@ -56,7 +59,7 @@ sum --help
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
