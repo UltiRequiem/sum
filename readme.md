@@ -9,7 +9,7 @@ Get the sum of an array of numbers
 
 ## Usage
 
-ESM only: the same import works in Node.js, Bun and browsers.
+ESM only, types included: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { sum } from "@ultirequiem/sum";
@@ -17,9 +17,6 @@ import { sum } from "@ultirequiem/sum";
 sum(1, 2, 3, 4, 5); //=> 15
 ```
 
-## Documentation
-
-Types are included with the package.
 ## Support
 
 Open an Issue, I will check it as soon as possible 👀
