@@ -31,32 +31,6 @@ The API is the same on all these platforms.
 ## Documentation
 
 Types are included with the package.
-## CLI
-
-### Install
-
-- **Deno 🎃**
-
-```sh
-deno install https://deno.land/x/sum/sum.ts
-```
-
-- **Node.js 🐼**
-
-```sh
-npm install -g @ultirequiem/sum
-```
-
-### Usage
-
-```sh
-sum --help
-```
-
-[A binary for multiple platforms is provided too!](https://github.com/UltiRequiem/sum/releases/latest)
-
-[Video Showcase](https://youtu.be/06t6aWE-6Mk)
-
 ## Support
 
 Open an Issue, I will check it as soon as possible 👀
