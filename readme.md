@@ -9,24 +9,13 @@ Get the sum of an array of numbers
 
 ## Usage
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/sum)
+ESM only: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { sum } from "@ultirequiem/sum";
 
 sum(1, 2, 3, 4, 5); //=> 15
 ```
-
-### Browser
-
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
-
-Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-▶ [SkyPack](https://cdn.skypack.dev/@ultirequiem/sum) _/_
-[script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
-[JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/sum).
-
-The API is the same on all these platforms.
 
 ## Documentation
 
