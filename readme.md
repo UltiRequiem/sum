@@ -1,6 +1,6 @@
 # Sum
 
-Get the sum of an array of numbers
+Sum an array of numbers.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/sum?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/sum)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/sum?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/sum)
