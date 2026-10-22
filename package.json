@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/sum",
   "version": "0.0.0-development",
-  "description": "text summarization utility",
+  "description": "Sum an array of numbers.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,11 +18,11 @@
     "node": ">=20"
   },
   "keywords": [
-    "summarization",
-    "nlp",
-    "stemmer",
-    "stop-words",
-    "express"
+    "math",
+    "array",
+    "reduce",
+    "esm",
+    "typescript"
   ],
   "license": "MIT",
   "homepage": "https://github.com/topliceanu/sum",
